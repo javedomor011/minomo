@@ -1,0 +1,245 @@
+@font-face{
+    font-family: PlayfairDisplaySC-Regular; 
+    src:url('../fonts/playfair-display/PlayfairDisplay-Regular.ttf')  
+}
+@font-face{
+    font-family: Ubuntu-Light; 
+    src:url('../fonts/ubuntu/Ubuntu-Light.ttf')  
+}
+
+/* common start */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/* common end */
+
+/* header start */
+header{
+    padding: 20px 0;
+}
+ .wrapper{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+ }
+ 
+ .logo{
+    margin-top: 11px;
+    float: left;
+    width: 12%;
+
+ }
+ .logo a img{
+    width: 100%;
+ }
+ .manu{
+    float: right;
+    width: 60%;
+ }
+ .manu ul{
+    float: right;
+ }
+ .manu ul li{
+    list-style: none;
+    float: left;
+ }
+ .manu ul li a{
+    margin-left: 60px;
+    padding: 2px;
+    text-decoration: none;
+    color: #626262;
+    text-transform: uppercase;
+    transition: .3s;
+ }
+ .manu ul li a:hover{
+    border-bottom: 1px solid;
+ }
+/* header end */
+
+/* banner start */
+.b-img{}
+.b-img img{
+    width: 100%;
+}
+/* banner end */
+
+/* perfect start */
+.perfect{
+    padding: 100px 0;
+}
+.wrapper2{
+    margin: 0 auto;
+    width: 80%;
+}
+.c-light{
+    margin: 0;
+    font-family: Ubuntu-Light; 
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.c-h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+.c-text{
+    margin: 0;
+    line-height: 23px;
+}
+.mb{
+    margin-bottom: 40px;
+}
+
+/* perfect end */
+
+/* blog start */
+.blog{
+    margin: 30px 0 100px;
+}
+.blogs{
+    overflow: hidden;
+}
+.single{
+    margin-top: 70px;
+    width: 47%;
+    float: left;
+}
+.single:nth-child(even){
+    float: right;
+
+}
+.bl-img{
+    margin-bottom: 25px;
+}
+.bl-img img{
+    width: 100%;
+}
+
+/* blog end */
+
+/* newsletter start  */
+.newsletter{
+    padding: 70px 0;
+    background-color: #f0f0f0;
+}
+.signup{
+    text-align: center;
+}
+.signup h1{
+    margin: 0 0 70px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+}
+.signup form{    
+    margin: 0 auto;
+    width: 347px;
+    position: relative;
+}
+.signup input{
+    padding: 10px 45px 10px 4px;
+    width: 300px;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    
+}
+.signup input:focus{
+    outline: 0;
+}
+.signup button{
+    height: 25px;
+    width: 25px;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    right: 2px;
+    cursor: pointer;
+    transition: .3s;
+}
+.signup button:hover{
+    background-color: #333333;
+    font-size: 12px;
+    color: #f0f0f0;
+}
+.signup button i{}
+
+/* newsletter end  */
+
+/* blog2 start */
+.load{
+    margin: 100px 0;
+    text-align: center;
+}
+.load button{
+    height: 50px;
+    width: 160px;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 16px;
+    color: #626262;
+    background: transparent;
+    border: 1px solid #626262;
+    cursor: pointer;
+    transition: .3s;
+}
+.load button:hover{
+    color: white;
+    background: #626262;
+}
+/* blog2 end */
+
+/* footer satrt  */
+.footer{
+    padding: 25px 0;
+    background-color: #f0f0f0;
+}
+.terms{
+    float: left;
+    width: 22%;
+}
+.terms ul{
+    float: right;
+}
+.terms ul li{
+    list-style: none;
+    float: left;
+}
+.terms ul li a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000000;
+    transition: .3s;
+}
+.terms ul li a:hover{
+    color: #626262;
+}
+.contact{
+    float: right;
+    width: 40%
+}
+.contact ul{
+    float: right;
+}
+.contact ul li{
+    list-style: none;
+    float: left;
+}
+.contact ul li a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000000;
+    transition: .3s;
+}
+.contact ul li a:hover{
+    color: #626262;
+}
+/* footer end  */
